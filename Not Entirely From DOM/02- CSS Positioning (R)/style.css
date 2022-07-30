@@ -1,0 +1,130 @@
+.main-container {
+  background-color: rgb(237, 234, 234);
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body {
+  background-color: pink;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 18px;
+  flex-wrap: wrap;
+}
+
+.main-box {
+  background-color: olive;
+  width: 35%;
+}
+
+#main-top-left {
+  background: #ccc;
+
+  position: relative;
+}
+
+#main-top-right {
+  background: #e86f88;
+  position: relative;
+}
+#main-bottom-left {
+  background: #79badb;
+  position: relative;
+}
+#main-bottom-right {
+  background: #a2dbb1;
+  position: relative;
+}
+
+.small-box {
+  width: 4.5vw;
+  height: 4.5vw;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 4.5vw;
+
+  border: 3px solid #fff;
+  border-radius: 0;
+  transition: all 0.5s ease;
+  /* transition: transform 0.7s ease-in-out; */
+}
+
+.small-box:hover {
+  width: 6vw;
+  height: 6vw;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+
+  transform: rotate(360deg);
+}
+
+#b1 {
+  background: red;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#b2 {
+  background: orange;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#b3 {
+  background: steelblue;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#b4 {
+  background: blue;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#b5 {
+  background: purple;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#b6 {
+  background: coral;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#b7 {
+  background: gray;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#b8 {
+  background: red;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

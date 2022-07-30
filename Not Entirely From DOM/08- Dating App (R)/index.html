@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Dating Qualification || Form</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Didn't added the autoplay background music but added music -->
+      <video
+        src="./media-files/backgroundVideoWithAudio.mp4"
+        loop
+        autoplay
+        muted
+      ></video>
+
+      <div class="background-image-container">
+        <div class="form-container">
+          <form action="">
+            <!-- fieldset-0 -->
+            <fieldset class="heading-field field">
+              <div>
+                <h1 class="heading">Dating Qualification Form</h1>
+              </div>
+            </fieldset>
+
+            <!-- fieldset-1 -->
+            <fieldset class="personal-details field fieldset-1">
+              <!-- <legend>Personal Details</legend> -->
+
+              <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <div class="form-field">
+                  <input
+                    class="typeArea outline-none"
+                    id="fullName"
+                    type="text"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <div class="form-field">
+                  <input
+                    class="typeArea outline-none"
+                    id="email"
+                    type="email"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Mobile Number:</label>
+                <div class="form-field mobile-field">
+                  <!-- <span> -->
+                  <select name="" id="" class="code-area">
+                    <option value="">+123</option>
+                    <option value="">+20</option>
+                    <option value="">+34</option>
+                    <option value="">+91</option>
+                    <option value="">+90</option>
+                    <option value="">+76</option>
+                  </select>
+
+                  <input
+                    class="mobile-area outline-none"
+                    id="phone"
+                    type="number"
+                  />
+                  <!-- </span> -->
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="gender">Gender:</label>
+                <div class="form-field gender-checks">
+                  <span>
+                    <input
+                      id="male"
+                      name="Gender"
+                      type="radio"
+                      value="2"
+                      class="outline-none"
+                    />
+                    <label for="male">Male</label>
+                  </span>
+                  <span>
+                    <input
+                      id="female"
+                      name="Gender"
+                      type="radio"
+                      value="1"
+                      class="outline-none"
+                    />
+                    <label for="female">Female</label>
+                  </span>
+                  <span>
+                    <input
+                      id="trans"
+                      name="Gender"
+                      type="radio"
+                      value="3"
+                      class="outline-none"
+                    />
+                    <label for="trans">Transgender</label>
+                  </span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="d-date">Date of proposed outing:</label>
+                <div class="form-field">
+                  <input
+                    class="typeArea outline-none"
+                    type="date"
+                    name="d-date"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="applies">Check all that apply to you:</label>
+                <div class="form-field">
+                  <div class="option-01 span-container">
+                    <span>
+                      <input
+                        type="checkbox"
+                        name=""
+                        id="val-01"
+                        class="outline-none"
+                      />
+                      <label for="val-01"
+                        >I have tattoos and/or piercings</label
+                      >
+                    </span>
+                  </div>
+                  <div class="option-02 span-container">
+                    <span>
+                      <input
+                        type="checkbox"
+                        name=""
+                        id="val-02"
+                        class="outline-none"
+                      />
+                      <label for="val-02"
+                        >I am more than 2 years older than my daughter</label
+                      >
+                    </span>
+                  </div>
+                  <div class="option-03 span-container">
+                    <span>
+                      <input
+                        type="checkbox"
+                        name=""
+                        id="val-03"
+                        class="outline-none"
+                      />
+                      <label for="val-03">I own a panel van or Ferrari</label>
+                    </span>
+                  </div>
+                  <div class="option-04 span-container">
+                    <span>
+                      <input
+                        type="checkbox"
+                        name=""
+                        id="val-04"
+                        class="outline-none"
+                      />
+                      <label for="val-04">I work full-time</label>
+                    </span>
+                  </div>
+                  <div class="option-05 span-container">
+                    <span>
+                      <input
+                        type="checkbox"
+                        name=""
+                        id="val-05"
+                        class="outline-none"
+                      />
+                      <label for="val-05">My parents are rich</label>
+                    </span>
+                  </div>
+
+                  <div class="option-06 span-container">
+                    <span>
+                      <input
+                        type="checkbox"
+                        name=""
+                        id="val-06"
+                        class="outline-none"
+                      />
+                      <label for="val-06"
+                        >Is the date at a private location</label
+                      >
+                    </span>
+                  </div>
+                  <div class="option-07 span-container">
+                    <span>
+                      <input
+                        type="checkbox"
+                        name=""
+                        id="val-07"
+                        class="outline-none"
+                      />
+                      <label for="val-07"
+                        >Is the date at a public location</label
+                      >
+                    </span>
+                  </div>
+
+                  <div class="option-08 span-container">
+                    <span>
+                      <input
+                        type="checkbox"
+                        name=""
+                        id="val-08"
+                        class="outline-none"
+                      />
+                      <label for="val-08">Education level completed</label>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- fieldset-2 -->
+            <fieldset class="Essay-section field fieldset-2">
+              <!-- <legend>Essay section</legend> -->
+
+              <div class="form-group">
+                <div class="essay-form">
+                  <label for="whyDate"
+                    >Why do you want to date my daughter?:</label
+                  >
+                  <span class="small"><small>(50 words input)</small></span>
+                </div>
+
+                <div class="form-field">
+                  <textarea
+                    id="whyDate"
+                    name=""
+                    rows="5"
+                    cols="50"
+                    class="outline-none textArea"
+                  >
+                  </textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="whyDate"
+                  >Please provide 1 contact point for your reference:</label
+                >
+                <div class="form-field">
+                  <input
+                    class="typeArea outline-none"
+                    id="fullName"
+                    type="text"
+                    placeholder="Reference Full Name"
+                  />
+                  <div class="reference-form-field mobile-field">
+                    <!-- <span> -->
+                    <select name="" id="" class="code-area">
+                      <option value="">+123</option>
+                      <option value="">+20</option>
+                      <option value="">+34</option>
+                      <option value="">+91</option>
+                      <option value="">+90</option>
+                      <option value="">+76</option>
+                    </select>
+
+                    <input
+                      class="mobile-area outline-none"
+                      id="phone"
+                      type="number"
+                      placeholder="Reference Mobile  Number"
+                    />
+                    <!-- </span> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="whyDate">Bank Statement:</label>
+                <div class="form-field">
+                  <label for="img">Select image:</label>
+                  <input
+                    type="file"
+                    id="img"
+                    name="img"
+                    accept="image/*"
+                    class="file-choose"
+                  />
+                  <input type="submit" class="img-submit" />
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- fieldset-3 -->
+            <!-- <fieldset class="submit-button-field field"> -->
+            <div class="submit-button-field field fieldset-3">
+              <button class="final-submit">Submit</button>
+            </div>
+            <!-- </fieldset> -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

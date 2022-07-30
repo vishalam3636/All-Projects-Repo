@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Open+Sans:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-color: rgb(213, 213, 213);
+  width: 100%;
+  height: 45vw;
+  margin: auto;
+  padding: 15px;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+/***************** TOP AREA *****************/
+.top {
+  /* background-color: darkorchid; */
+  width: 100%;
+  height: 90%;
+  /* padding: 5px; */
+
+  display: flex;
+}
+
+.top .side-nav-bar {
+  /* background-color: grey; */
+  background-color: #fff;
+  width: 50px;
+  height: 100%;
+}
+
+.top .side-nav-bar ul {
+  /* background-color: lightgreen; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.top .side-nav-bar ul > li {
+  /* background-color: red; */
+}
+
+.top .side-nav-bar ul li {
+  list-style: none;
+}
+.top .side-nav-bar ul li a {
+  color: #000;
+}
+
+.top .music-area {
+  /* background-color: pink; */
+  width: 95%;
+  height: 100%;
+  /* padding: 5px 6px; */
+}
+
+.music-details {
+  background-color: black;
+  height: 50%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top .music-area .music-details .app-yellow-box {
+  /* background-color: yellow; */
+  width: 15%;
+  height: 68%;
+}
+
+.top .music-area .app-yellow-box img {
+  width: 100%;
+}
+
+.top .music-area .app-details {
+  width: 70%;
+  height: 70%;
+  background-color: grey;
+
+  margin-right: 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top .music-area .app-details .heading {
+  /* background-color: olive; */
+}
+.top .music-area .app-details .heading h1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.top .music-area .app-details .extras {
+  /* background-color: lightsalmon; */
+  display: flex;
+  width: 33%;
+
+  font-size: 13px;
+  font-weight: 500;
+  justify-content: space-between;
+}
+
+.top .music-area .app-details .extras .option {
+  /* background-color: red; */
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top .music-area .app-details .extras .option .icon {
+  /* background-color: orange; */
+  margin-right: 7px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.top .music-area .app-details .extras .option .text {
+  /* background-color: palegreen; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  width: 55px;
+}
+
+.music-list {
+  /* background-color: aqua; */
+  height: 50%;
+}
+
+.music-list .songs {
+  /* background-color: lightgoldenrodyellow; */
+  /* border: 1px solid red; */
+  padding: 10px 0;
+}
+
+.music-list .songs .song {
+  /* background: gold; */
+  padding: 2px;
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.song-name {
+  /* background-color: magenta; */
+  width: 25%;
+}
+.band-name {
+  /* background-color: honeydew; */
+}
+.song-duration {
+  /* background-color: lightsalmon; */
+}
+.sync {
+  /* background-color: firebrick; */
+}
+
+/************** BOTTOM AREA *****************/
+.bottom {
+  background-color: darkblue;
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom .song-playing-details {
+  /* background-color: lightcyan; */
+  width: 20%;
+  margin-left: 10px;
+  font-size: 13px;
+
+  display: flex;
+  align-items: center;
+}
+
+.bottom .song-playing-details .image-container {
+  /* background-color: yellow; */
+  width: 62px;
+  height: 62px;
+}
+
+.bottom .song-playing-details .image-container img {
+  width: 100%;
+}
+
+.bottom .song-playing-details .details {
+  /* background-color: lightgreen; */
+  height: 90%;
+  width: 60%;
+  padding-left: 10px;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bottom .controls {
+  /* background-color: lightsalmon; */
+  width: 30%;
+  color: #fff;
+  padding-right: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

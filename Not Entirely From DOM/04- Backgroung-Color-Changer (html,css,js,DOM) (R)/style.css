@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body-container {
+  /* background-color: rgb(227, 224, 224); */
+  width: 70%;
+  margin: auto;
+  /* height: 100vw; */
+
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 50px;
+}
+
+/* FIELDS */
+label {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.field {
+  width: 85%;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 2px 10px;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* MAIN CONTAINER */
+.main-container-1,
+.main-container-2 {
+  /* width: 400px; */
+  width: 40%;
+  /* height: 550px; */
+  background-color: rgb(147, 143, 143);
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px;
+  border-radius: 15px;
+
+  margin: auto;
+}
+
+/* BOX */
+.box {
+  background-color: rgb(199, 193, 193);
+  width: 100%;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+}
+
+.pallet {
+  /* background-color: pink; */
+  width: 85%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.pallet input {
+  width: 80%;
+  height: 35px;
+  border-radius: 8px;
+  padding: 1px;
+}
+
+.radios {
+  /* background-color: aqua; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.radio {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.radios .brow {
+  background-color: brown;
+}
+.radios .blu {
+  background-color: blue;
+}
+.radios .oran {
+  background-color: orangered;
+}
+.radios .gree {
+  background-color: greenyellow;
+}
+.radios .yell {
+  background-color: yellow;
+}
+.radios .sky {
+  background-color: skyblue;
+  color: a;
+}
+
+/* <!-- TYPE-06, Color Gradient styling --> */
+.grad-inputs {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.grad-inputs input {
+  width: 40%;
+  height: 30px;
+  border-radius: 8px;
+  padding: 2px 10px;
+}
+
+.gradSelect {
+  width: 80%;
+  height: 35px;
+  border-radius: 8px;
+}
+
+/* DISPLAY COLOR */
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colorName,
+colorName-1,
+colorName-2 {
+  font-weight: bold;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) {
+  .body-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .main-container-1,
+  .main-container-2 {
+    width: 80%;
+
+    margin: auto;
+
+    padding: 18px 30px;
+    border-radius: 15px;
+  }
+
+  .main-container-1 {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Color Changer || Project-01</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="body-container">
+      <!-- FIRST MAIN CONTAINER -->
+      <div class="main-container-1">
+        <!-- Display color -->
+        <div class="box display">
+          <label for="display-color"
+            >You have selected:
+            <span class="colorName">??????</span> color</label
+          >
+        </div>
+
+        <!-- TYPE-01, Write Color Name -->
+        <div class="box-01 box type-01">
+          <label for="write-color">Wrie the color name:</label>
+          <input
+            id="write-color"
+            type="text"
+            placeholder="Enter Color"
+            class="field writeField"
+          />
+          <button class="write-submit">Submit</button>
+        </div>
+
+        <!-- TYPE-02, Select Color from pallet -->
+        <div class="box type-02">
+          <label for="select-color">Select color from pallet:</label>
+          <div class="pallet">
+            <input type="color" class="palletValue" />
+          </div>
+          <button class="select-submit">Submit</button>
+        </div>
+
+        <!-- TYPE-03, Random Color  (color from ARRAY) -->
+        <div class="box type-03">
+          <label for="random-color">Click button to get random color:</label>
+          <button class="random-submit">Click</button>
+        </div>
+
+        <!-- TYPE-04, Random Hexa Color Generator -->
+        <div class="box type-04">
+          <label for="radio-color"
+            >Click button to get randon hexa color:</label
+          >
+          <button class="hexa-submit">Click</button>
+        </div>
+
+        <!-- TYPE-05, Click on circle -->
+        <div class="box type-01">
+          <label for="radio-color">Select any of the below color:</label>
+          <div class="radios">
+            <input id="radio-color" type="button" class="radio brow" />
+            <input type="button" class="radio blu" />
+            <input type="button" class="radio oran" />
+            <input type="button" class="radio gree" />
+            <input type="button" class="radio yell" />
+            <input type="button" class="radio sky" />
+          </div>
+        </div>
+
+        <!-- Refresh Button -->
+        <div class="box type-01">
+          <button class="refresh shing">Refresh</button>
+        </div>
+      </div>
+
+      <!-- SECOND MAIN CONTAINER -->
+      <div class="main-container-2">
+        <!-- Display color -->
+        <div class="box display">
+          <label for="display-color"
+            >You have selected: <span class="colorName-1">??????</span> and
+            <span class="colorName-2">??????</span> colors</label
+          >
+        </div>
+
+        <!-- TYPE-06, Color Gradient -->
+        <div class="box box type-06">
+          <label for="write-color-1">Wrie the color names:</label>
+          <div class="grad-inputs">
+            <input
+              id="write-color-1"
+              type="text"
+              placeholder="Enter Color one"
+              class="field-1 writeField"
+            />
+            <input
+              id="write-color-2"
+              type="text"
+              placeholder="Enter Color Two"
+              class="field-2 writeField"
+            />
+          </div>
+
+          <!-- Select gradient direction -->
+          <label for="grads">Select Gradient Direction:</label>
+          <div class="grad-inputs">
+            <select name="grads" id="grads" class="gradSelect">
+              <option value="">Select</option>
+              <option value="linear">Linear</option>
+              <option value="radial">Radial</option>
+              <option value="conic">Conic</option>
+            </select>
+          </div>
+
+          <button class="gradient-submit">Submit</button>
+        </div>
+
+        <!-- Refresh Button -->
+        <div class="box type-01">
+          <button class="refresh shing">Refresh</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS SCRIPT FILE -->
+    <script src="./script.js"></script>
+  </body>
+</html>

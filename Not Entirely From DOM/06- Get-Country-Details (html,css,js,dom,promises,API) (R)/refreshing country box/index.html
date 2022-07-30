@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <!-- SEARCH COUNTRY NAME -->
+      <div class="searchCountry">
+        <div class="searchlabel">
+          <label for="search">Write Country Name:</label>
+        </div>
+        <div class="searchField">
+          <input
+            type="text"
+            placeholder="Enter Country Name"
+            class="inputField"
+          />
+        </div>
+      </div>
+
+      <!-- MAIN DETAILS BOX -->
+      <div class="country">
+        <div class="mainDetailsBox">
+          <!-- //flag container -->
+          <div class="flagBox">
+            <img
+              src="https://flagcdn.com/in.svg"
+              alt="India"
+              class="flagImage"
+            />
+          </div>
+
+          <!-- // DETAILS CONTAINER -->
+          <div class="mainDescriptionBox">
+            <div class="detail">
+              <h3 class="heading">DETAILS</h3>
+            </div>
+            <div class="countryname detail">
+              <div class="label">Country Name:</div>
+              <div class="result countryNameResult">India:</div>
+            </div>
+            <div class="nativename detail">
+              <div class="label">Native Name:</div>
+              <div class="result nativeNameResult">हिन्दी</div>
+            </div>
+            <div class="population detail">
+              <div class="label">Population:</div>
+              <div class="result populationResult">1380004385</div>
+            </div>
+            <div class="area detail">
+              <div class="label">Area:</div>
+              <div class="result areaResult">3287590</div>
+            </div>
+            <div class="area detail">
+              <div class="label">Calling Code</div>
+              <div class="result callingCodeResult">91</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUBMIT BUTTON -->
+      <div class="submitContainer">
+        <button class="submit">Submit</button>
+      </div>
+    </div>
+    <!-- SCRIPT FILE -->
+    <script src="./script.js"></script>
+  </body>
+</html>

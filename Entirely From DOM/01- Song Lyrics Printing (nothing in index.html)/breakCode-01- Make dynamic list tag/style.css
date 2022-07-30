@@ -1,0 +1,12 @@
+div {
+  width: 97%;
+}
+
+ul {
+  background-color: pink;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Updock&display=swap");
+/* font-family: 'Updock', cursive; */
+
+/*******************************************************************/
+body {
+  /* background-color: grey; */
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/******************* LAYOUTS STYLING ***********************/
+.main-container {
+  /* padding: 20px; */
+  font-size: 17px;
+  /* color: #fff; */
+  color: #000;
+}
+
+.main-container video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.background-image-container {
+  background-image: url("./media-files/love-06.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.form-container {
+  width: 60%;
+  padding: 15px 20px;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.field {
+  margin-bottom: 30px;
+  border: 3px solid rgb(216, 213, 213);
+  border-radius: 10px;
+}
+
+.fieldset-1 {
+  padding: 15px 20px;
+}
+.fieldset-2 {
+  padding: 18px 15px;
+}
+.fieldset-3 {
+  padding: 10px 15px;
+}
+
+.heading-field h1 {
+  font-family: "Updock", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #ed2939;
+}
+
+.form-group {
+  background-color: #fff;
+
+  width: 100%;
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  /* line-height: 50px; */
+  margin-bottom: 26px;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.form-group:nth-of-type(odd) {
+  background-color: rgb(241, 238, 238);
+}
+
+.form-group:nth-of-type(even) {
+  background-color: rgb(198, 194, 194);
+}
+
+.form-field {
+  width: 60%;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.typeArea {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 0 12px;
+  border: 1px solid grey;
+}
+
+.typeArea:focus {
+  border: 3px solid rgb(255, 53, 93);
+}
+
+.form-field {
+  /* position: relative; */
+}
+
+.mobile-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-area {
+  width: 55px;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 5px;
+  border: 1px solid grey;
+}
+
+.mobile-area {
+  width: 83.5%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 0 12px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border: 1px solid grey;
+}
+
+.gender-checks span {
+  margin-right: 10px;
+  display: flex;
+  float: left;
+  align-items: center;
+}
+
+.gender-checks span input {
+  width: 20px;
+  height: 15px;
+}
+
+.span-container {
+}
+
+.span-container span {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 4px;
+
+  display: flex;
+  align-items: center;
+}
+
+.span-container span input {
+  margin-right: 10px;
+  width: 25px;
+  height: 15px;
+}
+
+/*  Essay */
+.essay-form {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.small {
+  color: #02b4fa;
+}
+
+.textArea {
+  resize: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 12px;
+}
+
+.textArea:focus {
+  border: 3px solid rgb(255, 53, 93);
+}
+
+.reference-form-field {
+  width: 100%;
+  padding: 0 0;
+}
+
+.file-choose {
+  width: 200px;
+}
+
+.img-submit {
+  width: 80px;
+}
+
+/* FINAL SUBMIT BUTTON */
+.submit-button-field {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button-field .final-submit {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ed2939;
+  border: none;
+}
+
+/************ MEDIA QUERY  *************/
+@media screen and (max-width: 600px) {
+  .main-container {
+    /* padding: 10px; */
+  }
+
+  .main-container .vid-mob {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .heading-field h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .form-group {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 5px;
+  }
+
+  .background-image-container {
+    background-image: url("./media-files/love-mob-03.2.jpg");
+    opacity: 0.9;
+    width: 100%;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin: auto;
+    /* background-color: #fff; */
+    opacity: 0.8;
+  }
+
+  .fieldset-1 {
+    padding: 20px 10px 0px;
+  }
+  .fieldset-2 {
+    padding: 10px 10px;
+  }
+  .fieldset-3 {
+    padding: 10px 10px;
+  }
+
+  .form-field {
+    width: 100%;
+  }
+
+  .typeArea {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .mobile-area {
+    width: 82%;
+    border-radius: 5px;
+  }
+
+  label {
+    margin-bottom: 8px;
+  }
+
+  .span-container span {
+    width: 100%;
+  }
+
+  /* ESSAY FORM */
+  .essay-form {
+    width: 100%;
+  }
+
+  .textArea {
+    resize: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 12px;
+  }
+
+  .reference-form-field {
+    width: 100%;
+    padding: 0 0;
+  }
+}

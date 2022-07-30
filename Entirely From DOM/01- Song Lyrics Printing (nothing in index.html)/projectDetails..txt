@@ -1,0 +1,9 @@
+/*************** PROJECT-01 *************/
+
+Creating a select tag using DOM
+Create and Append Options to it
+                     👉🏽 The options will have song names as innerText(taken from object)
+Make an Unordered List
+Create and append list tag to it 
+		         👉🏽 The list tag will have song lines as innerText
+                     👉🏽 The song line should be print at an interval of 2 seconds

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="best-container">
+      <div class="main-container">
+        <!-- header -->
+        <div class="header">
+          <p>TIP CALCULATOR</p>
+        </div>
+
+        <!-- Amount Container -->
+        <div class="amount-container small">
+          <div class="label">
+            <label for="amount">Enter your bill amount</label>
+          </div>
+          <div class="input-area">
+            <span>Rs </span><input type="number" id="amount" class="input-1" />
+          </div>
+        </div>
+
+        <!-- service container -->
+        <div class="service-container small">
+          <div class="label">
+            <label for="rating">How was the service?</label>
+          </div>
+          <div class="options-area">
+            <select id="ratings" class="select-1">
+              <option value="20">Excellent - 20%</option>
+              <option value="10">Medium - 10%</option>
+              <option value="5">Not so good - 5%</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Bill Sharing -->
+        <div class="sharing-container small">
+          <div class="label">
+            <label for="people">How many people are sharing the bill?</label>
+          </div>
+          <div class="input-area">
+            <input type="number" id="people" class="input-2" />
+          </div>
+        </div>
+
+        <!-- Calculate Area -->
+        <div class="button-container">
+          <button>CALCULATE</button>
+        </div>
+
+        <!-- Tip Amount -->
+        <div class="display-tip-container">
+          <div class="display-amount">
+            <div class="header-amount">
+              <h1>TIP AMOUNT</h1>
+            </div>
+            <div class="amount">
+              <h3>Rs. <span class="tip">0</span></h3>
+            </div>
+            <div>
+              <h3>Each</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="visibility-container">
+        <div class="kaahe-ungli-container">
+          <h1 class="error">ERROR</h1>
+          <h1 class="description">KAAHE FARZI MEIN</h1>
+          <h1 class="description">SCREEN SIZE CHANGE</h1>
+          <h1 class="description">KAR RAHE HO</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT FILE -->
+    <script src="./script.js"></script>
+  </body>
+</html>
