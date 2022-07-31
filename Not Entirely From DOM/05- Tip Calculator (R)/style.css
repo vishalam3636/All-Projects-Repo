@@ -55,7 +55,8 @@ select {
 
 /* BEST CONTAINER */
 .best-container {
-  /* background-color: grey; */
+  background-color: grey;
+  padding: 20px 0;
   /* width: 100%;
   height: 46vw;
   display: flex;
@@ -73,7 +74,7 @@ select {
   border: 3px solid grey;
   border-radius: 10px;
 
-  margin-top: 4%;
+  /* margin-top: 20px; */
 
   display: block;
 }
@@ -149,36 +150,8 @@ button {
   align-items: center;
 }
 
-/* KAAHE UNGLI CONTAINBER */
-.kaahe-ungli-container {
-  background-color: rgb(228, 228, 228);
-  width: 100%;
-  height: 46.5vw;
-  margin: auto;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 35%;
-}
-
-.error {
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-
-.description {
-  font-size: 25px;
-}
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .main-container {
-    display: none;
-  }
-
-  .visibility-container {
-    display: block;
+    width: 98%;
   }
 }
