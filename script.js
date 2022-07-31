@@ -26,5 +26,5 @@ if (today === "31-07-2022") {
   setTimeout(() => {
     mainContainer.style.display = "block";
     bdayContainer.style.display = "none";
-  }, 7000);
+  }, 5000);
 }
