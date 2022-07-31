@@ -211,17 +211,18 @@ a:hover {
   }
 }
 
+/**************************************************************/
 /***************** BIRTHDAY CONTAINER STYLING **************/
+/**************************************************************/
 
 .birthdayContainer {
   /* background-color: grey; */
   width: 98%;
-  height: 99vh;
   display: none;
 
   margin: auto;
 
-  border: 5px solid rgb(127, 125, 125);
+  padding: 30px 0px;
   border-radius: 30px;
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
@@ -242,9 +243,40 @@ a:hover {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.rohitBhai {
-  width: 300px;
+.imgContainer {
+  width: 20%;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   margin-bottom: 30px;
+}
+
+.imgContainer img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 500px) {
+  .birthdayContainer h1 {
+    font-size: 25px;
+    padding: 10px 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .birthdayContainer {
+    height: 99vh;
+    padding: 20px 0px 0 0px;
+  }
+
+  .imgContainer {
+    width: 70%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-bottom: 30px;
+  }
+
+  .birthdayContainer h1 {
+    font-size: 30px;
+    padding: 10px 30px;
+  }
 }
