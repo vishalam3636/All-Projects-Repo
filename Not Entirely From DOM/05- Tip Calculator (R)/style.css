@@ -55,7 +55,7 @@ select {
 
 /* BEST CONTAINER */
 .best-container {
-  background-color: grey;
+  /* background-color: grey; */
   padding: 20px 0;
   /* width: 100%;
   height: 46vw;
@@ -153,5 +153,9 @@ button {
 @media only screen and (max-width: 600px) {
   .main-container {
     width: 98%;
+  }
+
+  .best-container {
+    padding: 40px 0;
   }
 }
