@@ -23,8 +23,8 @@ let bdayContainer = document.querySelector(".birthdayContainer");
 if (today === "31-07-2022") {
   mainContainer.style.display = "none";
 
-  setTimeout(() => {
-    mainContainer.style.display = "block";
-    bdayContainer.style.display = "none";
-  }, 5000);
+  // setTimeout(() => {
+  //   mainContainer.style.display = "block";
+  //   bdayContainer.style.display = "none";
+  // }, 5000);
 }
