@@ -56,6 +56,8 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
+  text-align: center;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,10 +70,9 @@ ul {
 }
 
 li {
-  font-size: 16px;
   /* background-color: tomato; */
   margin-bottom: 10px;
-  padding: 5px 0px 5px 35px;
+  padding: 1px;
 
   border: 2px solid #000;
   border-radius: 10px;
@@ -83,11 +84,40 @@ li {
   font-size: 20px;
 }
 
+a {
+  /* background-color: rgb(236, 175, 200); */
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 3px 0 3px 35px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+li:hover {
+  border: 3px solid red;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+  font-size: 21px;
+  border: none;
+}
+
+/* a:hover {
+  color: #fff;
+} */
 /* Main Container Styling */
 .mainContainer {
   /* background-color: grey; */
   width: 98%;
-  height: 99.9vh;
   padding: 10px;
   margin: auto;
 
@@ -145,6 +175,7 @@ li {
 }
 
 /********************* RESPONSIVES ************  */
+/* max-width 600px */
 @media only screen and (max-width: 600px) {
   .listContainer {
     width: 100%;
@@ -154,6 +185,10 @@ li {
     align-items: center;
   }
 
+  a {
+    font-size: 17px;
+  }
+
   .entirelyDom,
   .notEntirelyDom {
     width: 98%;
@@ -161,5 +196,17 @@ li {
 
   .entirelyDom {
     margin-bottom: 30px;
+  }
+
+  /* Hover effect */
+  li:hover {
+    border: 3px solid red;
+  }
+
+  a:hover {
+    background-color: #000;
+    color: #fff;
+    font-size: 29px;
+    border: none;
   }
 }
