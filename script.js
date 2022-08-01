@@ -1,3 +1,6 @@
+/*
+// BIRTHDAY WISH LOGIC
+
 // SETTING DATE
 var today = new Date();
 var dd = today.getDate();
@@ -28,3 +31,5 @@ if (today === "31-07-2022") {
     bdayContainer.style.display = "none";
   }, 5000);
 }
+
+*/

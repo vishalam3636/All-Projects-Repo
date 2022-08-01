@@ -214,9 +214,9 @@ a:hover {
 /**************************************************************/
 /***************** BIRTHDAY CONTAINER STYLING **************/
 /**************************************************************/
-
+/* 
 .birthdayContainer {
-  /* background-color: grey; */
+  background-color: grey;
   width: 98%;
   display: none;
 
@@ -254,7 +254,7 @@ a:hover {
 .imgContainer img {
   width: 100%;
   border-radius: 50%;
-}
+} */
 
 /* MEDIA QUERY */
 /* @media only screen and (min-width: 263px) {
@@ -333,7 +333,7 @@ a:hover {
   }
 } */
 
-@media only screen and (max-width: 420px) {
+/* @media only screen and (max-width: 420px) {
   .birthdayContainer {
     margin-top: 16px;
     height: 97vh;
@@ -350,4 +350,4 @@ a:hover {
     font-size: 18px;
     padding: 10px 5px;
   }
-}
+} */

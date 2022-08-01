@@ -1,0 +1,11 @@
+💀❌💀 There Won't be any more folder added to this "All-Projects-Repo" Folder. 💀❌💀
+This is a Git Clone Repositary.
+
+There are only two basic Ideas behind this Folder.
+
+1. Collection Of JS Questions
+				   👉🏽 00- JS Question Bank
+2. Project COllection
+                   👉🏽 Entirely From DOM (Project made entirely from DOM, nothing in index.html)
+			 👉🏽 Not Entirely From DOM (Exactly opposite of Entirely from DOM)
+			 👉🏽 media files (Contains the media files used in the project)
